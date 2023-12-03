@@ -75,6 +75,8 @@ prompt_end() {
   fi
   print -n "%{%f%}"
   CURRENT_BG=''
+  #Adds the new line and ➜ as the start character.
+  printf "\n ➜ ";
 }
 
 ### Prompt components
